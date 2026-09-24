@@ -1,61 +1,50 @@
-# X6851-Android-Documentation
-Community documentation and testing notes for the Infinix Note 40 Pro 5G (X6851).
+Infinix X6851 Android Documentation
 
-## About
+Community documentation, testing notes, and technical information for the Infinix Note 40 Pro 5G (X6851).
 
-This repository documents technical information, Android experiments, ROM/GSI testing, kernel testing, and troubleshooting notes for the Infinix X6851.
+Device
+Item	Information
+Device	Infinix Note 40 Pro 5G
+Model	X6851
+SoC	MediaTek MT6855
+Platform	Dimensity 930 / Dimensity 7020
+Architecture	ARM64
+Treble	Supported
+Android	Android 15 / Android 16
+Bootloader	Unlocked during testing
+About This Repository
 
-The goal is to make useful X6851 information easier to find for users, developers, testers, and anyone interested in Android modding.
+This repository documents Android development and testing on the Infinix X6851.
 
-## Device
+The goal is to collect useful technical information that may be difficult to find in one place, including:
 
-| Information | Details |
-|---|---|
-| Device | Infinix Note 40 Pro 5G |
-| Model | X6851 |
-| SoC | MediaTek MT6855 |
-| Platform | Dimensity 930 / 7020 |
-| Architecture | ARM64 |
-| Treble | Supported |
-| Partition scheme | A/B |
-| Dynamic partitions | Yes |
+Device information
+Partition layout
+Boot and vendor_boot
+Android Verified Boot
+BROM and preloader
+Fastboot information
+GSI compatibility
+Kernel testing
+Root and Magisk
+Fingerprint sensor
+GPS
+Camera and multimedia
+Known issues and troubleshooting
+GSI Testing
 
-## Documentation
+Tested Android-based GSIs and ROMs will be documented with their configuration, working features, bugs, and observations.
 
-- Device information
-- Partition layout
-- Boot chain
-- BROM & Preloader
-- Fastboot information
-- GSI compatibility
-- Kernel testing
-- Root / Magisk testing
-- GPS testing
-- Fingerprint testing
-- Camera and multimedia testing
-- Troubleshooting
+Disclaimer
 
-## ROM / GSI Testing
+This is an independent community project and is not affiliated with Infinix or Transsion.
 
-| ROM / GSI | Android | Status | Notes |
-|---|---:|---|---|
-| XOS | 15/16 | Tested | Stock firmware |
-| LineageOS GSI | 23.2 | Tested | See testing notes |
-| Infinity-X |  | Tested | See testing notes |
-| EvoX |  | Tested | See testing notes |
-| Axion |  | Tested | See testing notes |
-| Lunaris |  | Tested | See testing notes |
+Android modification can cause data loss or device boot problems. Always make appropriate backups before modifying the device.
 
-## Disclaimer
+Information in this repository is based on testing and observation and may not apply to every X6851 software version or hardware revision.
 
-This is an independent community documentation project.
+Maintainer
 
-It is not affiliated with Infinix or Transsion.
+BARKER-X
 
-Android modification can cause data loss or device boot problems. Always make appropriate backups and verify files before flashing anything.
-
-## Maintainer
-
-**BARKER-X**
-
-GitHub: [@barker-x](https://github.com/barker-x)
+Independent Android enthusiast and X6851 tester.
